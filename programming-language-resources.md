@@ -22,7 +22,7 @@
     - scope & linkage
     - namespaces
     - OOP
-    - STL
+    - STL                   <!-- 上次读到这里 -->
     - [functors](http://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html)
     - [C++ at Google (video)](https://www.youtube.com/watch?v=NOCElcMcFik)
     - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)

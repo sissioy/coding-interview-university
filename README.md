@@ -261,7 +261,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 - [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
-    - [ ] [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+    - [x] [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
         - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
     - [ ] [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
         - A free Python centric data structures and algorithms course.
@@ -330,7 +330,7 @@ If you read through one of these, you should have all the data structures and al
 [Additional language-specific resources here.](programming-language-resources.md)
 
 ### C++
-
+<!-- 收藏到这里2020-10-29 -->
 I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
