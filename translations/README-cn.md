@@ -307,18 +307,18 @@
 ## 必备知识
 
 - [ ] **计算机是如何处理一段程序：**
-    - [ ] [CPU 是如何执行代码（视频）](https://www.youtube.com/watch?v=XM4lGflQFvA)
-    - [ ] [机器码指令（视频）](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+    - [x] [CPU 是如何执行代码（视频）](https://www.youtube.com/watch?v=XM4lGflQFvA)
+    - [x] [机器码指令（视频）](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
 - [ ] **编译器**
-    - [ ] [编译器是如何在 ~1 分钟内工作（视频）](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
-    - [ ] [Hardvard CS50 —— 编译器（视频）](https://www.youtube.com/watch?v=CSZLNYF4Klo)
-    - [ ] [C++（视频）](https://www.youtube.com/watch?v=twodd1KFfGk)
-    - [ ] [掌握编译器的优化（C++）（视频）](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+    - [x] [编译器是如何在 ~1 分钟内工作（视频）](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
+    - [x] [Hardvard CS50 —— 编译器（视频）](https://www.youtube.com/watch?v=CSZLNYF4Klo)
+    - [x] [C++（视频）](https://www.youtube.com/watch?v=twodd1KFfGk)
+    - [x] [掌握编译器的优化（C++）（视频）](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 - [ ] **浮点数是如何存储的：**
-    - [ ] 简单的 8-bit：[浮点数的表达形式　—— 1（视频 —— 在计算上有一个错误 —— 详情请查看视频的介绍）](https://www.youtube.com/watch?v=ji3SfClm8TU)
-    - [ ] 32 bit：[IEEE754 32-bit 浮点二进制（视频）](https://www.youtube.com/watch?v=50ZYcZebIec)
+    - [x] 简单的 8-bit：[浮点数的表达形式　—— 1（视频 —— 在计算上有一个错误 —— 详情请查看视频的介绍）](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [x] 32 bit：[IEEE754 32-bit 浮点二进制（视频）](https://www.youtube.com/watch?v=50ZYcZebIec)
 
 ## 算法复杂度 / Big-O / 渐进分析法
 - 并不需要实现
@@ -1338,12 +1338,12 @@
     - 关于更多信息，请参照下方 MIT 6.050J 信息和系统复杂度的内容.
 
 - ### 奇偶校验位 & 汉明码 (视频)
-    - [ ] [入门](https://www.youtube.com/watch?v=q-3BctoUpHE)
-    - [ ] [奇偶校验位](https://www.youtube.com/watch?v=DdMcAUlxh1M)
-    - [ ] 汉明码(Hamming Code):
+    - [x] [入门](https://www.youtube.com/watch?v=q-3BctoUpHE)
+    - [x] [奇偶校验位](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+    - [x] 汉明码(Hamming Code):
         - [发现错误](https://www.youtube.com/watch?v=1A_NcXxdoCc)
         - [修正错误](https://www.youtube.com/watch?v=JAMLuxdHH8o)
-    - [ ] [检查错误](https://www.youtube.com/watch?v=wbH2VxzmoZk)
+    - [x] [检查错误](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
 - ### 系统熵值（系统复杂度）
     - 请参考下方视频
