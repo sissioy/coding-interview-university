@@ -19,61 +19,50 @@
 
 ## 目录
 
-- [这是？](#这是)
-- [为何要用到它？](#为何要用到它)
-- [如何使用它](#如何使用它)
-- [拥有一名 Googler 的心态](#拥有一名-googler-的心态)
-- [我得到了工作吗？](#我得到了工作吗)
-- [跟着我的脚步](#跟着我的脚步)
-- [不要妄自菲薄](#不要妄自菲薄)
-- [关于 Google](#关于-google)
-- [相关视频资源](#相关视频资源)
-- [面试过程 & 通用的面试准备](#面试过程--通用的面试准备)
-- [为你的面试选择一种语言](#为你的面试选择一种语言)
-- [在你开始之前](#在你开始之前)
-- [你所看不到的](#你所看不到的)
-- [日常计划](#日常计划)
-- [必备知识](#必备知识)
-- [算法复杂度 / Big-O / 渐进分析法](#算法复杂度--big-o--渐进分析法)
-- [数据结构](#数据结构)
-    - [数组（Arrays）](#数组arrays)
-    - [链表（Linked Lists）](#链表linked-lists)
-    - [堆栈（Stack）](#堆栈stack)
-    - [队列（Queue）](#队列queue)
-    - [哈希表（Hash table）](#哈希表hash-table)
-- [更多的知识](#更多的知识)
-    - [二分查找（Binary search）](#二分查找binary-search)
-    - [按位运算（Bitwise operations）](#按位运算bitwise-operations)
-- [树（Trees）](#树trees)
-    - [树 —— 笔记 & 背景](#树--笔记--背景)
-    - [二叉查找树（Binary search trees）：BSTs](#二叉查找树binary-search-treesbsts)
-    - [堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）](#堆heap--优先级队列priority-queue--二叉堆binary-heap)
-    - [字典树（Tries）](#字典树tries)
-    - [平衡查找树（Balanced search trees）](#平衡查找树balanced-search-trees)
-    - [N 叉树（K 叉树、M 叉树）](#n-叉树k-叉树m-叉树)
-- [排序](#排序sorting)
-- [图（Graphs）](#图graphs)
-- [更多知识](#更多知识)
-    - [递归](#递归recursion)
-    - [动态规划](#动态规划dynamic-programming)
-    - [组合 & 概率](#组合combinatorics-n-中选-k-个--概率probability)
-    - [NP, NP-完全和近似算法](#np-np-完全和近似算法)
-    - [缓存](#缓存cache)
-    - [进程和线程](#进程processe和线程thread)
-    - [系统设计、可伸缩性、数据处理](#系统设计可伸缩性数据处理)
-    - [论文](#论文)
-    - [测试](#测试)
-    - [调度](#调度)
-    - [实现系统例程](#实现系统例程)
-    - [字符串搜索和操作](#字符串搜索和操作)
-- [终面](#终面)
-- [书籍](#书籍)
-- [编码练习和挑战](#编码练习和挑战)
-- [当你临近面试时](#当你临近面试时)
-- [你的简历](#你的简历)
-- [当面试来临的时候](#当面试来临的时候)
-- [问面试官的问题](#问面试官的问题)
-- [当你获得了梦想的职位](#当你获得了梦想的职位)
+- [[译] Coding Interview University 一套完整的学习手册帮助自己准备 Google 的面试](#译-coding-interview-university-一套完整的学习手册帮助自己准备-google-的面试)
+  - [这是？](#这是)
+  - [目录](#目录)
+  - [为何要用到它？](#为何要用到它)
+  - [如何使用它](#如何使用它)
+  - [我得到了工作吗？](#我得到了工作吗)
+  - [跟着我的脚步](#跟着我的脚步)
+  - [不要妄自菲薄](#不要妄自菲薄)
+  - [关于 Google](#关于-google)
+  - [相关视频资源](#相关视频资源)
+  - [面试过程 & 通用的面试准备](#面试过程--通用的面试准备)
+  - [为你的面试选择一种语言](#为你的面试选择一种语言)
+  - [在你开始之前](#在你开始之前)
+    - [1. 你不可能把所有的东西都记住](#1-你不可能把所有的东西都记住)
+    - [2. 使用抽认卡](#2-使用抽认卡)
+    - [3. 回顾，回顾，回顾](#3-回顾回顾回顾)
+    - [4. 专注](#4-专注)
+  - [你所看不到的](#你所看不到的)
+  - [日常计划](#日常计划)
+  - [必备知识](#必备知识)
+  - [算法复杂度 / Big-O / 渐进分析法](#算法复杂度--big-o--渐进分析法)
+  - [数据结构](#数据结构)
+  - [更多的知识](#更多的知识)
+  - [树（Trees）](#树trees)
+  - [排序（Sorting）](#排序sorting)
+  - [图（Graphs）](#图graphs)
+  - [更多知识](#更多知识)
+  - [终面](#终面)
+      - [综述:](#综述)
+      - [排序:](#排序)
+  - [书籍](#书籍)
+    - [Google Coaching 里提到的](#google-coaching-里提到的)
+    - [附加书单](#附加书单)
+    - [如果你有时间](#如果你有时间)
+  - [编码练习和挑战](#编码练习和挑战)
+  - [当你临近面试时](#当你临近面试时)
+  - [你的简历](#你的简历)
+  - [当面试来临的时候](#当面试来临的时候)
+  - [问面试官的问题](#问面试官的问题)
+  - [当你获得了梦想的职位](#当你获得了梦想的职位)
+  - [附加的学习](#附加的学习)
+  - [一些主题的额外内容](#一些主题的额外内容)
+  - [视频系列](#视频系列)
+  - [计算机科学课程](#计算机科学课程)
 
 ---------------- 下面的内容是可选的 ----------------
 
@@ -354,77 +343,77 @@
         - [不规则数组（视频）](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
         - [调整数组的大小（视频）](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] 实现一个动态数组（可自动调整大小的可变数组）：
-        - [ ] 练习使用数组和指针去编码，并且指针是通过计算去跳转而不是使用索引
-        - [ ] 通过分配内存来新建一个原生数据型数组
+        - [x] 练习使用数组和指针去编码，并且指针是通过计算去跳转而不是使用索引
+        - [x] 通过分配内存来新建一个原生数据型数组
             - 可以使用 int 类型的数组，但不能使用其语法特性
             - 从大小为16或更大的数（使用2的倍数 —— 16、32、64、128）开始编写
-        - [ ] size() —— 数组元素的个数
-        - [ ] capacity() —— 可容纳元素的个数
-        - [ ] is_empty()
-        - [ ] at(index) —— 返回对应索引的元素，且若索引越界则愤然报错
-        - [ ] push(item)
-        - [ ] insert(index, item) —— 在指定索引中插入元素，并把后面的元素依次后移
-        - [ ] prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0
-        - [ ] pop() —— 删除在数组末端的元素，并返回其值
-        - [ ] delete(index) —— 删除指定索引的元素，并把后面的元素依次前移
-        - [ ] remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）
-        - [ ] find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则返回 -1
-        - [ ] resize(new_capacity) // 私有函数
+        - [x] size() —— 数组元素的个数
+        - [x] capacity() —— 可容纳元素的个数
+        - [x] is_empty()
+        - [x] at(index) —— 返回对应索引的元素，且若索引越界则愤然报错
+        - [x] push(item)
+        - [x] insert(index, item) —— 在指定索引中插入元素，并把后面的元素依次后移
+        - [x] prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0
+        - [x] pop() —— 删除在数组末端的元素，并返回其值
+        - [x] delete(index) —— 删除指定索引的元素，并把后面的元素依次前移
+        - [x] remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）
+        - [x] find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则返回 -1
+        - [x] resize(new_capacity) // 私有函数
             - 若数组的大小到达其容积，则变大一倍
             - 获取元素后，若数组大小为其容积的1/4，则缩小一半
-    - [ ] 时间复杂度
+    - [x] 时间复杂度
         - 在数组末端增加/删除、定位、更新元素，只允许占 O(1) 的时间复杂度（平摊（amortized）去分配内存以获取更多空间）
         - 在数组任何地方插入/移除元素，只允许 O(n) 的时间复杂度
-    - [ ] 空间复杂度
+    - [x] 空间复杂度
         - 因为在内存中分配的空间邻近，所以有助于提高性能
         - 空间需求 = （大于或等于 n 的数组容积）* 元素的大小。即便空间需求为 2n，其空间复杂度仍然是 O(n)
 
 - ### 链表（Linked Lists）
-    - [ ] 介绍：
-        - [ ] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B —— 链表（视频）](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
-    - [ ] [C 代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+    - [x] 介绍：
+        - [x] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [x] [CS 61B —— 链表（视频）](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+    - [x] [C 代码（视频）](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
         - 并非看完整个视频，只需要看关于节点结果和内存分配那一部分即可
-    - [ ] 链表 vs 数组：
+    - [x] 链表 vs 数组：
         - [基本链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [在现实中，链表 Vs 数组（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [为什么你需要避免使用链表（视频）](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] 的确：你需要关于“指向指针的指针”的相关知识：（因为当你传递一个指针到一个函数时，该函数可能会改变指针所指向的地址）该页只是为了让你了解“指向指针的指针”这一概念。但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。
+    - [x] [为什么你需要避免使用链表（视频）](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [x] 的确：你需要关于“指向指针的指针”的相关知识：（因为当你传递一个指针到一个函数时，该函数可能会改变指针所指向的地址）该页只是为了让你了解“指向指针的指针”这一概念。但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。
         - [指向指针的指针](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] 实现（我实现了使用尾指针以及没有使用尾指针这两种情况）：
-        - [ ] size() —— 返回链表中数据元素的个数
-        - [ ] empty() —— 若链表为空则返回一个布尔值 true
-        - [ ] value_at(index) —— 返回第 n 个元素的值（从0开始计算）
-        - [ ] push_front(value) —— 添加元素到链表的首部
-        - [ ] pop_front() —— 删除首部元素并返回其值
-        - [ ] push_back(value) —— 添加元素到链表的尾部
-        - [ ] pop_back() —— 删除尾部元素并返回其值
-        - [ ] front() —— 返回首部元素的值
-        - [ ] back() —— 返回尾部元素的值
-        - [ ] insert(index, value) —— 插入值到指定的索引，并把当前索引的元素指向到新的元素
-        - [ ] erase(index) —— 删除指定索引的节点
-        - [ ] value_n_from_end(n) —— 返回倒数第 n 个节点的值
-        - [ ] reverse() —— 逆序链表
-        - [ ] remove_value(value) —— 删除链表中指定值的第一个元素
-    - [ ] 双向链表
+    - [x] 实现（我实现了使用尾指针以及没有使用尾指针这两种情况）：
+        - [x] size() —— 返回链表中数据元素的个数
+        - [x] empty() —— 若链表为空则返回一个布尔值 true
+        - [x] value_at(index) —— 返回第 n 个元素的值（从0开始计算）
+        - [x] push_front(value) —— 添加元素到链表的首部
+        - [x] pop_front() —— 删除首部元素并返回其值
+        - [x] push_back(value) —— 添加元素到链表的尾部
+        - [x] pop_back() —— 删除尾部元素并返回其值
+        - [x] front() —— 返回首部元素的值
+        - [x] back() —— 返回尾部元素的值
+        - [x] insert(index, value) —— 插入值到指定的索引，并把当前索引的元素指向到新的元素
+        - [x] erase(index) —— 删除指定索引的节点
+        - [x] value_n_from_end(n) —— 返回倒数第 n 个节点的值
+        - [x] reverse() —— 逆序链表
+        - [x] remove_value(value) —— 删除链表中指定值的第一个元素
+    - [x] 双向链表
         - [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - 并不需要实现
 
 - ### 堆栈（Stack）
-    - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [使用堆栈 —— 后进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
-    - [ ] 可以不实现，因为使用数组来实现并不重要
+    - [x] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [x] [使用堆栈 —— 后进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+    - [x] 可以不实现，因为使用数组来实现并不重要
 
 - ### 队列（Queue）
-    - [ ] [使用队列 —— 先进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
-    - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [优先级队列（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
-    - [ ] 使用含有尾部指针的链表来实现:
+    - [x] [使用队列 —— 先进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+    - [x] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [x] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] [优先级队列（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [x] 使用含有尾部指针的链表来实现:
         - enqueue(value) —— 在尾部添加值
         - dequeue() —— 删除最早添加的元素并返回其值（首部元素）
         - empty()
-    - [ ] 使用固定大小的数组实现：
+    - [x] 使用固定大小的数组实现：
         - enqueue(value) —— 在可容的情况下添加元素到尾部
         - dequeue() —— 删除最早添加的元素并返回其值
         - empty()
