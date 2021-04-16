@@ -426,22 +426,22 @@
 
 - ### 哈希表（Hash table）
     - [ ] 视频：
-        - [ ] [链式哈希表（视频）](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [ ] [Table Doubling 和 Karp-Rabin（视频）](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [x] [链式哈希表（视频）](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [x] [Table Doubling 和 Karp-Rabin（视频）](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [Open Addressing 和密码型哈希（Cryptographic Hashing）（视频）](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [PyCon 2010：The Mighty Dictionary（视频）](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [（进阶）随机取样（Randomization）：全域哈希（Universal Hashing）& 完美哈希（Perfect Hashing）（视频）](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [（进阶）完美哈希（Perfect hashing）（视频）](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
     - [ ] 在线课程：
-        - [ ] [哈希函数的掌握（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-        - [ ] [使用哈希表（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-        - [ ] [哈希表的支持（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-        - [ ] [哈希表的语言支持（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
-        - [ ] [基本哈希表（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [数据结构（视频）](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [电话薄问题（Phone Book Problem）（视频）](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] 分布式哈希表：
+        - [x] [哈希函数的掌握（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
+        - [x] [使用哈希表（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
+        - [x] [哈希表的支持（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
+        - [x] [哈希表的语言支持（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
+        - [x] [基本哈希表（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [x] [数据结构（视频）](https://www.coursera.org/learn/data-structures/home/week/3)
+        - [x] [电话薄问题（Phone Book Problem）（视频）](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [x] 分布式哈希表：
             - [Dropbox 中的瞬时上传及存储优化（视频）](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [分布式哈希表（视频）](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
@@ -455,24 +455,24 @@
 ## 更多的知识
 
 - ### 二分查找（Binary search）
-    - [ ] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] 实现：
+    - [x] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [x] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [x] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [x] 实现：
         - 二分查找（在一个已排序好的整型数组中查找）
         - 迭代式二分查找
 
 - ### 按位运算（Bitwise operations）
-    - [ ] [Bits 速查表](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf)
+    - [x] [Bits 速查表](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf)
         - 你需要知道大量2的幂数值（从2^1 到 2^16 及 2^32）
-    - [ ] 好好理解位操作符的含义：&、|、^、~、>>、<<
-        - [ ] [字码（words）](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] 好的介绍：
+    - [x] 好好理解位操作符的含义：&、|、^、~、>>、<<
+        - [x] [字码（words）](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [x] 好的介绍：
             [位操作（视频）](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C 语言编程教程 2-10：按位运算（视频）](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [位操作](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [按位运算](https://en.wikipedia.org/wiki/Bitwise_operation)
-        - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+        - [x] [C 语言编程教程 2-10：按位运算（视频）](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [x] [位操作](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [x] [按位运算](https://en.wikipedia.org/wiki/Bitwise_operation)
+        - [x] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
         - [ ] [位元抚弄者（The Bit Twiddler）](http://bits.stephan-brumme.com/)
         - [ ] [交互式位元抚弄者（The Bit Twiddler Interactive）](http://bits.stephan-brumme.com/interactive.html)
     - [ ] 一补数和补码
